@@ -101,15 +101,14 @@ My goal is to continue improving my frontend development skills, build practical
 
 ## 🌐 Live Demo
 
-**Portfolio:** Add your deployed portfolio URL here.
+**Portfolio:** https://my-portfolio-pearl-gamma-11.vercel.app/
 
 ## 📬 Contact
 
 - **Name:** Sarah
-- **GitHub:** Add your GitHub profile URL
-- **LinkedIn:** Add your LinkedIn profile URL
-- **Email:** Add your professional email address
-
+- **GitHub:** (https://github.com/sarahwritescode)
+- **LinkedIn:** (https://www.linkedin.com/in/sarah-khatun/)
+- **Email:** (sarahkhatun582@gmail.com)
 ## 📄 License
 
 This project is created for personal portfolio and learning purposes.
