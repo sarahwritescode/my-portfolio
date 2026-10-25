@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Sarah — Frontend Developer Portfolio
 
-## Getting Started
+A personal portfolio website showcasing my frontend development skills, technologies, and projects. Built with a focus on clean design, responsive layouts, and a user-friendly experience.
 
-First, run the development server:
+## ✨ Features
+
+- **Modern UI:** Clean and minimal design with green accents.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Hero Section:** Introduction and welcome section.
+- **About Me:** A brief introduction to my development journey.
+- **Skills & Technologies:** Organized display of my technical skills.
+- **Projects Showcase:** A dedicated section to present my work.
+- **Contact Section:** A way for visitors to connect with me.
+- **Reusable Components:** Organized components for easier maintenance.
+
+## 🛠️ Technologies Used
+
+- **Next.js** — React framework
+- **React** — UI development
+- **TypeScript** — Type-safe development
+- **Tailwind CSS** — Styling and responsive layouts
+- **Lucide React** — Interface icons
+- **React Icons** — Technology icons
+
+## 📁 Project Structure
+
+```text
+my-portfolio/
+├── public/
+│   ├── hero.png
+│   └── about.png
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   └── components/
+│       ├── navbar.tsx
+│       ├── hero.tsx
+│       ├── about.tsx
+│       ├── skills.tsx
+│       ├── projects.tsx
+│       ├── contact.tsx
+│       └── footer.tsx
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js installed
+- npm or another compatible package manager
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd my-portfolio
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**5. Open in your browser**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit [http://localhost:3000](http://localhost:3000).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Available Scripts
 
-## Learn More
+| Command | Description |
+|---|---|
+| `npm run dev` | Starts the development server |
+| `npm run build` | Builds the production application |
+| `npm run start` | Runs the production server |
+| `npm run lint` | Runs the lint script, if configured |
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+My goal is to continue improving my frontend development skills, build practical web applications, write maintainable code, and create accessible, responsive, and engaging user experiences.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Live Demo
 
-## Deploy on Vercel
+**Portfolio:** https://my-portfolio-pearl-gamma-11.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Name:** Sarah
+- **GitHub:** (https://github.com/sarahwritescode)
+- **LinkedIn:** (https://www.linkedin.com/in/sarah-khatun/)
+- **Email:** (sarahkhatun582@gmail.com)
+## 📄 License
+
+This project is created for personal portfolio and learning purposes.
+
+---
+
+*Designed and developed with 💚 by Sarah.*
+r [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
