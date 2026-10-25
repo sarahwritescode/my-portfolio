@@ -6,12 +6,15 @@ import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import SocialLinks from "@/components/social-links";
+
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <main>
+        <SocialLinks />
         <Hero />
         <About />
         <Skills />
