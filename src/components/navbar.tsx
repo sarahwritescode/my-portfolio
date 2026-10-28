@@ -39,12 +39,13 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Link
-            href="#contact"
-            className="rounded-lg bg-lime-700 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-lime-800"
-          >
-            Let&apos;s Talk
-          </Link>
+          <a
+  href="/resume.pdf"
+  download="Sarah-Khatun-Resume.pdf"
+  className="inline-flex items-center gap-2 rounded-lg bg-lime-700 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-lime-800"
+>
+  Download Resume
+</a>
         </div>
 
         {/* Mobile menu button */}
@@ -73,6 +74,13 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
+            <a
+              href="/resume.pdf"
+              download="Sarah-Khatun-Resume.pdf"
+              className="inline-flex items-center gap-2 rounded-lg bg-lime-700 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-lime-800"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       )}

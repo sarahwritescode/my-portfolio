@@ -2,7 +2,7 @@
 import {
   FaGithub,
   FaLinkedinIn,
-  FaFacebookF,
+  
   
 } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md"
@@ -18,11 +18,7 @@ const socialLinks = [
     href: "https://www.linkedin.com/in/sarah-khatun/",
     icon: FaLinkedinIn,
   },
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/sharifs.wife.sara",
-    icon: FaFacebookF,
-  },
+  
  {
   name: "Email",
   href: "mailto:sarahkhatun582@gmail.com",
